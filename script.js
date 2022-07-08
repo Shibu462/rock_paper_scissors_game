@@ -113,7 +113,8 @@ function playGame() {
 
 // ** endGame function clears all the text on the DOM **
 function endGame() {
-    totalScore['playerScore'] = 0
+  totalScore['playerScore'] = 0
+  totalScore['computerScore']=0
     const playerScoreDiv = document.getElementById('player-score')
     const resultDiv = document.getElementById('result')
     const handsDiv = document.getElementById('hands')
